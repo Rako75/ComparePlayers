@@ -16,7 +16,7 @@ Une application **Streamlit** interactive pour visualiser les performances stati
 
 > Une visualisation claire et esthétique inspirée des travaux de [@Worville] et [@FootballSlices].
 
-![aperçu radar](Radar_comparatif_app)
+![aperçu radar](Radar_comparatif_app.png)
 
 ---
 
