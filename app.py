@@ -73,7 +73,7 @@ def calculate_percentiles(player_name, df):
 # ---------------------- APP STREAMLIT ----------------------
 
 st.set_page_config(layout="wide", page_title="Radar de joueurs")
-st.title("📊 Radar de performance - Rang Percentile - Top 5 Championnat Européen  - Saison 2024/25")
+st.title("📊 Radar de performance - Top 5 Championnat Européen  - Saison 2024/25")
 
 # Charger les données
 df = pd.read_csv("df_BIG2025.csv", sep=",")
@@ -125,7 +125,7 @@ if mode == "Radar individuel":
         )
 
         fig.text(0.515, 0.95, joueur1, size=24, ha="center", fontproperties=font_bold.prop, color="#ffffff")
-        fig.text(0.515, 0.925, "Rang Percentile - FBRef | Saison 2024-25", size=13,
+        fig.text(0.515, 0.925, "Radar Individuel | Percentile | Saison 2024-25", size=13,
                  ha="center", fontproperties=font_bold.prop, color="#ffffff")
         st.pyplot(fig)
 
@@ -185,7 +185,7 @@ elif mode == "Radar comparatif":
         fig.text(0.515, 0.99, f"{joueur1} vs {joueur2}", size=24, ha="center",
                  fontproperties=font_bold.prop, color="#ffffff")
 
-        fig.text(0.515, 0.955, "Radar comparatif - Rang Percentile - Top 5 Championnat Européen | Saison 2024-25 | @AlexRakotomalala",
+        fig.text(0.515, 0.955, "Radar comparatif | Percentile | Saison 2024-25",
                  size=13, ha="center", fontproperties=font_bold.prop, color="#ffffff")
 
         legend_p1 = mpatches.Patch(color=COLOR_1, label=joueur1)
