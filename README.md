@@ -20,14 +20,12 @@ Une application **Streamlit** interactive pour visualiser les performances stati
 
 ---
 
-## 📁 Structure
 
-├── app.py # Application principale Streamlit
-├── requirements.txt # Dépendances Python
-├── README.md # Ce fichier
-│
-├── Data/
-│ └── df_BIG2025.csv # Fichier de données pré-traitées des joueurs
-│
-└── Scraping/
-└── SCRAPING_FBRef.ipynb # Notebook pour scraper les données depuis FBRef
+---
+
+## 🔧 Installation
+
+1. **Cloner le dépôt :**
+
+```bash
+git clone https://https://github.com/Rako75/ComparePlayers.git
