@@ -1,6 +1,6 @@
 # 📊 Radar de performances - Saison 2024/25
 
-Une application **Streamlit** interactive pour visualiser les performances statistiques de joueurs de football via des radars, en mode **individuel** ou **comparatif**. Les statistiques sont normalisées par 90 minutes de jeu pour permettre des comparaisons équitables.
+Une application **Streamlit** interactive pour visualiser les performances statistiques de joueurs de football via des radars, en mode **individuel** ou **comparatif**. Les statistiques sont normalisées par 90 minutes de jeu et au format Percentile pour permettre des comparaisons équitables.
 
 ---
 
