@@ -76,7 +76,7 @@ st.set_page_config(layout="wide", page_title="Radar de joueurs")
 st.title("📊 Radar de performance - Top 5 Championnat Européen  - Saison 2024/25")
 
 # Charger les données
-df = pd.read_csv("df_BIG2025.csv", sep=",")
+df = pd.read_csv("Data/df_BIG2025.csv", sep=",")
 ligues = df["Compétition"].unique()
 
 # Choix du mode
