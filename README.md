@@ -17,15 +17,3 @@ Une application **Streamlit** interactive pour visualiser les performances stati
 > Une visualisation claire et esthétique inspirée des travaux de @Worville et @FootballSlices.
 
 ![aperçu radar](Radar_comparatif_app.png)
-
----
-
-
----
-
-## 🔧 Installation
-
-1. **Cloner le dépôt :**
-
-```bash
-git clone https://https://github.com/Rako75/ComparePlayers.git
